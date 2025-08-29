@@ -18,6 +18,7 @@ public class Task2 {
             + twoPointZero + " "
             + bool;
 
-        System.out.println(output);
+        System.out.println(output); 
+        // Output: H3ll0 w0rld 2.0 true
     }
 }
