@@ -7,6 +7,6 @@ public class task4{
         Scanner input = new Scanner(System.in);
         String word = input.nextLine();
         String reverseversion = new StringBuilder(word).reverse().toString();
-        System.out.println(word.equals(reverseversion) ? "Palindrome" : "Not a Palindrome" );
+        System.out.println(word.equalsIgnoreCase(reverseversion) ? "Palindrome" : "Not a Palindrome" );
     }
 }
